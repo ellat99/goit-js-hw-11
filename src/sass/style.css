@@ -69,18 +69,18 @@ form button {
 #scroll-top {
   display: none;
   font-size: 20px;
-  border-radius: var(--form-radius);
+  border-radius: 15px;
   padding: 5px 20px;
   margin-top: 20px;
   position: relative;
   left: calc(100% / 2);
   transform: translate(-50%, 0);
   cursor: pointer;
-  background-color: var(--form-bckgrnd);
-  color: var(--btn-hovcolor);
-  transition: background-color var(--transition);
+  background-color: greenyellow;
+  color: black;
+  transition: greenyellow;
 }
 
 #scroll-top:hover {
-  background-color: var(--btn-hovbckgrnd);
+  background-color: greenyellow;
 }

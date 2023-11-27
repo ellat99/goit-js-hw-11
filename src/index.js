@@ -142,7 +142,7 @@ window.addEventListener('scroll', () => {
   throttle(handleInfiniteScroll, 250);
 });
 const scrollTopBtn = document.createElement('button');
-scrollTopBtn.innerText = 'Home';
+scrollTopBtn.innerText = 'Back';
 scrollTopBtn.id = 'scroll-top';
 document.body.appendChild(scrollTopBtn);
 scrollTopBtn.addEventListener('click', () => {
